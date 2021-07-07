@@ -1,15 +1,84 @@
 {
-  "name": "bitcore-lib",
-  "version": "0.14.0",
-  "description": "A pure and powerful JavaScript Bitcoin library.",
-  "author": "BitPay <dev@bitpay.com>",
-  "main": "index.js",
-  "scripts": {
-    "lint": "gulp lint",
-    "test": "gulp test",
-    "coverage": "gulp coverage",
-    "build": "gulp"
+  "_from": "git://github.com/aguycalled/bitcore-lib.git",
+  "_id": "bitcore-lib@0.14.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/bitcore-lib",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git://github.com/aguycalled/bitcore-lib.git",
+    "rawSpec": "git://github.com/aguycalled/bitcore-lib.git",
+    "saveSpec": "git://github.com/aguycalled/bitcore-lib.git",
+    "fetchSpec": "git://github.com/aguycalled/bitcore-lib.git",
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git://github.com/aguycalled/bitcore-lib.git#043e21cca47a51abf854bd765307d151e1ac14d2",
+  "_shrinkwrap": {
+    "name": "bitcore",
+    "version": "0.13.19",
+    "dependencies": {
+      "bn.js": {
+        "version": "2.0.4",
+        "from": "bn.js@=2.0.4",
+        "resolved": "https://registry.npmjs.org/bn.js/-/bn.js-2.0.4.tgz"
+      },
+      "bs58": {
+        "version": "2.0.0",
+        "from": "bs58@=2.0.0",
+        "resolved": "https://registry.npmjs.org/bs58/-/bs58-2.0.0.tgz"
+      },
+      "buffer-compare": {
+        "version": "1.0.0",
+        "from": "buffer-compare@=1.0.0",
+        "resolved": "https://registry.npmjs.org/buffer-compare/-/buffer-compare-1.0.0.tgz"
+      },
+      "elliptic": {
+        "version": "3.0.3",
+        "from": "elliptic@=3.0.3",
+        "resolved": "https://registry.npmjs.org/elliptic/-/elliptic-3.0.3.tgz",
+        "dependencies": {
+          "brorand": {
+            "version": "1.0.5",
+            "from": "brorand@^1.0.1",
+            "resolved": "https://registry.npmjs.org/brorand/-/brorand-1.0.5.tgz"
+          },
+          "hash.js": {
+            "version": "1.0.3",
+            "from": "hash.js@=1.0.3",
+            "resolved": "https://registry.npmjs.org/hash.js/-/hash.js-1.0.3.tgz"
+          }
+        }
+      },
+      "inherits": {
+        "version": "2.0.1",
+        "from": "inherits@=2.0.1",
+        "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz"
+      },
+      "lodash": {
+        "version": "3.10.1",
+        "from": "lodash@=3.10.1",
+        "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
+      }
+    }
+  },
+  "_spec": "git://github.com/aguycalled/bitcore-lib.git",
+  "_where": "/root/wrapped-navcoin",
+  "author": {
+    "name": "BitPay",
+    "email": "dev@bitpay.com"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "bugs": {
+    "url": "https://github.com/navcoin/bitcore-lib/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Daniel Cousens",
@@ -56,6 +125,27 @@
       "email": "luwei.here@gmail.com"
     }
   ],
+  "dependencies": {
+    "async-mutex": "^0.3.1",
+    "bls-eth-wasm": "^1.0.2",
+    "bn.js": "=2.0.4",
+    "bs58": "=2.0.0",
+    "buffer-compare": "=1.0.0",
+    "elliptic": "=3.0.3",
+    "inherits": "=2.0.1",
+    "lodash": "~3.10.0",
+    "mcl-wasm": "github:herumi/mcl-wasm"
+  },
+  "deprecated": false,
+  "description": "A pure and powerful JavaScript Bitcoin library.",
+  "devDependencies": {
+    "bitcore-build": "github:bitpay/bitcore-build",
+    "brfs": "^1.2.0",
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.13.0"
+  },
+  "homepage": "https://github.com/navcoin/bitcore-lib#readme",
   "keywords": [
     "bitcoin",
     "transaction",
@@ -72,27 +162,18 @@
     "bip70",
     "multisig"
   ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "bitcore-lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/navcoin/bitcore-lib.git"
+    "url": "git+https://github.com/navcoin/bitcore-lib.git"
   },
-  "browser": {
-    "request": "browser-request"
+  "scripts": {
+    "build": "gulp",
+    "coverage": "gulp coverage",
+    "lint": "gulp lint",
+    "test": "gulp test"
   },
-  "dependencies": {
-    "bn.js": "=2.0.4",
-    "bs58": "=2.0.0",
-    "buffer-compare": "=1.0.0",
-    "elliptic": "=3.0.3",
-    "inherits": "=2.0.1",
-    "lodash": "~3.10.0"
-  },
-  "devDependencies": {
-    "bitcore-build": "bitpay/bitcore-build",
-    "brfs": "^1.2.0",
-    "chai": "^1.10.0",
-    "gulp": "^3.8.10",
-    "sinon": "^1.13.0"
-  },
-  "license": "MIT"
+  "version": "0.14.0"
 }
