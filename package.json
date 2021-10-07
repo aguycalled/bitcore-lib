@@ -126,17 +126,18 @@
     }
   ],
   "dependencies": {
-    "@liutianv1/bls-signatures": "0.0.1",
+    "@chiamine/bls-signatures": "^0.2.1-beta.2",
     "async-mutex": "^0.3.1",
     "bls-eth-wasm": "^1.0.2",
     "bn.js": "=2.0.4",
     "bs58": "=2.0.0",
+    "buffer": "6.0.3",
     "buffer-compare": "=1.0.0",
+    "crypto-js": "^4.1.1",
     "elliptic": "=3.0.3",
     "inherits": "=2.0.1",
     "lodash": "~3.10.0",
-    "mcl-wasm": "github:herumi/mcl-wasm",
-    "buffer": "6.0.3"
+    "mcl-wasm": "github:herumi/mcl-wasm"
   },
   "deprecated": false,
   "description": "A pure and powerful JavaScript Bitcoin library.",
