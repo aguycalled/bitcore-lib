@@ -126,7 +126,7 @@
     }
   ],
   "dependencies": {
-    "@liutianv1/bls-signatures": "^0.0.1",
+    "@aguycalled/bls-signatures": "^0.2.1-beta.0",
     "async-mutex": "^0.3.1",
     "bls-eth-wasm": "^1.0.2",
     "bn.js": "=2.0.4",
