@@ -67,7 +67,6 @@
     }
   },
   "_spec": "git://github.com/aguycalled/bitcore-lib.git",
-  "_where": "/root/wrapped-navcoin",
   "author": {
     "name": "BitPay",
     "email": "dev@bitpay.com"
@@ -76,7 +75,7 @@
     "request": "browser-request"
   },
   "bugs": {
-    "url": "https://github.com/navcoin/bitcore-lib/issues"
+    "url": "https://github.com/aguycalled/bitcore-lib/issues"
   },
   "bundleDependencies": false,
   "contributors": [
@@ -126,7 +125,7 @@
     }
   ],
   "dependencies": {
-    "@liutianv1/bls-signatures": "^0.0.1",
+    "@aguycalled/bls-signatures": "^0.2.1-beta.3",
     "async-mutex": "^0.3.1",
     "bls-eth-wasm": "^1.0.2",
     "bn.js": "=2.0.4",
@@ -148,7 +147,7 @@
     "gulp": "^3.8.10",
     "sinon": "^1.13.0"
   },
-  "homepage": "https://github.com/navcoin/bitcore-lib#readme",
+  "homepage": "https://github.com/aguycalled/bitcore-lib#readme",
   "keywords": [
     "bitcoin",
     "transaction",
@@ -167,10 +166,10 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "bitcore-lib",
+  "name": "@aguycalled/bitcore-lib",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/navcoin/bitcore-lib.git"
+    "url": "git+https://github.com/aguycalled/bitcore-lib.git"
   },
   "scripts": {
     "build": "gulp",
@@ -178,5 +177,5 @@
     "lint": "gulp lint",
     "test": "gulp test"
   },
-  "version": "0.14.0"
+  "version": "0.15.0"
 }
