@@ -126,8 +126,10 @@
   ],
   "dependencies": {
     "@aguycalled/bls-signatures": "^0.2.1-beta.3",
+    "@aguycalled/bls12-381": "^1.0.0",
+    "@aguycalled/mcl-wasm": "^0.8.1",
     "async-mutex": "^0.3.1",
-    "bls-eth-wasm": "^1.0.2",
+    "bcrypto": "^5.4.0",
     "bn.js": "=2.0.4",
     "bs58": "=2.0.0",
     "buffer": "6.0.3",
@@ -177,5 +179,5 @@
     "lint": "gulp lint",
     "test": "gulp test"
   },
-  "version": "0.15.1"
+  "version": "0.15.3"
 }
