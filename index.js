@@ -17,6 +17,8 @@ global._bitcore = bitcore.version;
 
 // crypto
 bitcore.crypto = {};
+bitcore.crypto.Bls = require('./lib/crypto/bls');
+bitcore.crypto.Blsct = require('./lib/crypto/blsct');
 bitcore.crypto.BN = require('./lib/crypto/bn');
 bitcore.crypto.ECDSA = require('./lib/crypto/ecdsa');
 bitcore.crypto.Hash = require('./lib/crypto/hash');
