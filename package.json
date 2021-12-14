@@ -138,7 +138,6 @@
     "elliptic": "=3.0.3",
     "inherits": "=2.0.1",
     "lodash": "~3.10.0",
-    "mcl-wasm": "github:herumi/mcl-wasm",
     "prettier": "^2.5.1"
   },
   "deprecated": false,
