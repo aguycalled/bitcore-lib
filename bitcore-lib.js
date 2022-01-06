@@ -10708,7 +10708,7 @@ var UNITS = {
   'mBTC'     : [1e5, 5],
   'uBTC'     : [1e2, 2],
   'bits'     : [1e2, 2],
-  'satoshis' : [1, 0]
+  'satoshis' : [1, 0],
   'NAV'      : [1e8, 8],
   'mNAV'     : [1e5, 5],
   'uNAV'     : [1e2, 2],
