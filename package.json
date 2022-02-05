@@ -125,7 +125,6 @@
     }
   ],
   "dependencies": {
-    "@aguycalled/bls-signatures": "^0.2.1-beta.3",
     "@aguycalled/mcl-wasm": "^0.8.1",
     "@aguycalled/noble-bls12-381": "^1.2.1",
     "async-mutex": "^0.3.1",
@@ -179,5 +178,5 @@
     "lint": "gulp lint",
     "test": "gulp test"
   },
-  "version": "0.15.47"
+  "version": "0.15.48"
 }
