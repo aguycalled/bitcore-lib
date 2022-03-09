@@ -138,7 +138,7 @@
     "inherits": "=2.0.1",
     "lodash": "~3.10.0",
     "prettier": "^2.5.1",
-    "react-native-mcl": "^0.1.0"
+    "react-native-mcl": "^0.1.4"
   },
   "react-native": {
     "@aguycalled/mcl-wasm": "react-native-mcl"
@@ -182,5 +182,5 @@
     "lint": "gulp lint",
     "test": "gulp test"
   },
-  "version": "0.15.55"
+  "version": "0.15.59"
 }
