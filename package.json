@@ -77,7 +77,7 @@
   "bugs": {
     "url": "https://github.com/aguycalled/bitcore-lib/issues"
   },
-  "bundleDependencies": false,
+  "bundleDependencies": [],
   "contributors": [
     {
       "name": "Daniel Cousens",
@@ -137,7 +137,11 @@
     "elliptic": "=3.0.3",
     "inherits": "=2.0.1",
     "lodash": "~3.10.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "react-native-mcl": "^0.1.0"
+  },
+  "react-native": {
+    "@aguycalled/mcl-wasm": "react-native-mcl"
   },
   "deprecated": false,
   "description": "A pure and powerful JavaScript Bitcoin library.",
@@ -178,5 +182,5 @@
     "lint": "gulp lint",
     "test": "gulp test"
   },
-  "version": "0.15.54"
+  "version": "0.15.55"
 }
