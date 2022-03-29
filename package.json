@@ -172,6 +172,10 @@
     "type": "git",
     "url": "git+https://github.com/aguycalled/bitcore-lib.git"
   },
+  "react-native": {
+    "@aguycalled/mcl-wasm": "react-native-mcl",
+    "@aguycalled/noble-bls12-381": "react-native-mcl"
+  },
   "scripts": {
     "build": "gulp",
     "coverage": "gulp coverage",
