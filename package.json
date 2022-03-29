@@ -139,10 +139,6 @@
     "lodash": "~3.10.0",
     "prettier": "^2.5.1"
   },
-  "react-native": {
-    "@aguycalled/mcl-wasm": "react-native-mcl",
-    "@aguycalled/noble-bls12-381": "react-native-mcl"
-  },
   "deprecated": false,
   "description": "A pure and powerful JavaScript Bitcoin library.",
   "devDependencies": {
@@ -182,5 +178,5 @@
     "lint": "gulp lint",
     "test": "gulp test"
   },
-  "version": "0.15.73"
+  "version": "0.15.75"
 }
