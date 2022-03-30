@@ -125,7 +125,7 @@
     }
   ],
   "dependencies": {
-    "@aguycalled/mcl-wasm": "^0.8.4",
+    "@aguycalled/mcl-wasm": "^0.8.3",
     "@aguycalled/noble-bls12-381": "^1.2.1",
     "async-mutex": "^0.3.1",
     "bcrypto": "^5.4.0",
@@ -172,11 +172,15 @@
     "type": "git",
     "url": "git+https://github.com/aguycalled/bitcore-lib.git"
   },
+  "react-native": {
+    "@aguycalled/mcl-wasm": "react-native-mcl",
+    "@aguycalled/noble-bls12-381": "react-native-mcl"
+  },
   "scripts": {
     "build": "gulp",
     "coverage": "gulp coverage",
     "lint": "gulp lint",
     "test": "gulp test"
   },
-  "version": "0.15.79"
+  "version": "0.15.80"
 }
