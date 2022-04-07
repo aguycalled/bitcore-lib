@@ -182,5 +182,5 @@
     "lint": "gulp lint",
     "test": "gulp test"
   },
-  "version": "0.15.88"
+  "version": "0.15.91"
 }
