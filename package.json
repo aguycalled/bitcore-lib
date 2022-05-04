@@ -174,7 +174,8 @@
   },
   "react-native": {
     "@aguycalled/mcl-wasm": "react-native-mcl",
-    "@aguycalled/noble-bls12-381": "react-native-mcl"
+    "@aguycalled/noble-bls12-381": "react-native-mcl",
+    "@aguycalled/bitcore-mnemonic": "@aguycalled/react-native-bitcore-mnemonic"
   },
   "scripts": {
     "build": "gulp",
@@ -182,5 +183,5 @@
     "lint": "gulp lint",
     "test": "gulp test"
   },
-  "version": "0.15.103"
+  "version": "0.15.104"
 }
